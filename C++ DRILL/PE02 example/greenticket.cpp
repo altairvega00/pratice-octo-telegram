@@ -10,6 +10,11 @@ int green_ticket(int a, int b, int c)
 {
     int result;
      // Add your code here
-    
+     if (a == b && b == c)
+     {result = 20;} 
+     else if (a != b && b != c)
+     {result = 0;}
+     else 
+     {result = 10;}
     return result;
 }
