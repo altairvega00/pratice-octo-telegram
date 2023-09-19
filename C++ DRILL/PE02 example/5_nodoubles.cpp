@@ -8,6 +8,21 @@ int no_doubles(int a, int b, bool has_doubles)
 {
     int result;
     // Add your code here
-    
+   if (has_doubles)
+    {
+       if ( a == b)
+       { 
+          result = 1 + a + b;
+       }
+      else
+      {
+         result = a + b ;
+      }
+    }
+    else
+    { 
+       result = a +b;
+       
+    } 
     return result;
 }
