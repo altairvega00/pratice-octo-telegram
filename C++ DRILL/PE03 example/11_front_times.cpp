@@ -11,10 +11,11 @@ string front_times(const string& str, int n)
 {
     string result;
    // Your code goes here
-    string front = str.substr(0,3);
-    for (int i = 0; i < n ; i++)
-    {
-        result = result + front;
-    }
+   string finalstr = str.substr(0,3);
+   while(n != 0)
+   {
+      result += finalstr;
+      n--;
+   }
     return result;
 }
