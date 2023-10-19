@@ -4,12 +4,12 @@
 
 double bmiCalc(double height, double weight, int& category) {
     //height = height/100.0 ; //204.27 -> 2.0427 
-    double bmi = weight / (height * height);
+    double bmi = weight / (height * height)*703;
     if (bmi < 18.5) {
         category = 1;
-    } else if (bmi >= 18.5 && bmi < 25) {
+    } else if (bmi >= 18.5 && bmi <= 24.9) {
         category = 2;
-    } else if (bmi >= 25.0 && bmi < 30 ) {
+    } else if (bmi >= 25.0 && bmi <= 29.9 ) {
         category = 3;
     } else {
         category = 4;

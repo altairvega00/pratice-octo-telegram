@@ -1,6 +1,7 @@
 #include <string>
 
 string strToLeet(string& s) {
+    
     for (char& c : s) {
         switch (c) {
             case 'o':
