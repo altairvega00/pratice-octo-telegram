@@ -13,7 +13,7 @@ using std::string;
  *  Do not use any string functions except for substr(), 
  *  at(), and size(), and isalpha() from <cctype>.
  *
- * 
+ *   
  * • for input of "fez day" → 2
    • for input of "day fez" → 2
    • for input of "day fyyyz" → 2
